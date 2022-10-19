@@ -1,15 +1,15 @@
 body {
-    background-color: #f4f4f4;
+    background-color: black;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: white;
+    background-color: gray;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 0 1em #ccc;
     transition: all .2s ease-in-out;
 }
@@ -35,5 +35,5 @@ body {
 }
 
 button:focus {
-    border: 1px solid #333;
+    border: 1px solid #ff0000;
 }
